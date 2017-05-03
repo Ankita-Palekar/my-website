@@ -1,0 +1,803 @@
+/*
+
+
+	1. TYPOGRAPHY
+	2. IMAGES
+	3. BUTTONS
+	4. LINES
+	5. FORM
+	6. ICONS / SOCIAL
+	7. ICON BOX
+	8. SLIDER
+	  8.1 DEVICE SLIDER
+	  8.2 DEVICE IPHONE
+	  8.3 DEVICE MACBOOK
+	  8.4 COMMENT SLIDER
+	9. CAROUSEL
+	  9.1 CLIENT CAROUSEL
+	10. PRICING TABLE
+	  10.1 TOP PRICE
+	11. TOGGLE BOX
+	12. SKILLBAR
+	13. FACTS
+	14. TAB CONTENT
+	15. CALLOUT BOX
+	16. ALERT BOX
+	17. GOOGLE MAP
+
+
+*/
+
+/* --------------------------------------------------------------------- */
+/* 1. TYPOGRAPHY
+/* --------------------------------------------------------------------- */
+
+a {
+    cursor: pointer;
+    color: #48a65b;
+    text-decoration: none;
+}
+
+
+p {
+    margin-bottom: 30px;
+    font-size: 0.85em;
+}
+p.max-width {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+p.undertitle {
+    max-width: 850px;
+    margin: 0 auto 25px auto;
+    text-transform: none;
+    font-size: 1.1em;
+    color: rgba(218,218,218,0.8);
+}
+p.blockquote {
+	padding: 0 0 0 20px;
+	color: rgba(255,255,255,0.4);
+	border-left: 5px solid #48a65b;
+	font-size: 1em;
+	font-style: italic;
+}
+
+
+h1, h2, h3, h4 {
+    font-weight: 600;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+h1 {
+    font-size: 3.5em;
+    margin-bottom: 25px;
+}
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 25px;
+}
+h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+h4 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+h5 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+
+h1.underline, h2.underline, h3.underline, h4.underline {
+    background: url('../images/layout/under-headline.png') bottom center no-repeat;
+}
+h1.underline, h2.underline {
+	padding-bottom: 20px;
+}
+h3.underline, h4.underline {
+    padding-bottom: 20px;
+}
+
+
+.bold {
+    font-weight: 700;
+}
+.color {
+    color: #48a65b;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 2. IMAGES
+/* --------------------------------------------------------------------- */
+
+.responsive-img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 3. BUTTONS
+/* --------------------------------------------------------------------- */
+
+.button {
+    display: inline-block;
+    padding: 20px 60px;
+    color: #d7d7d7;
+    background: #48a65b;
+    border: 2px solid #48a65b;
+    font-size: 0.95em;
+    font-weight: 600;
+    text-transform: uppercase;
+    -webkit-transition: all 0.2s;
+    -moz-transition:    all 0.2s;
+    -o-transition:      all 0.2s;
+    transition:         all 0.2s;
+}
+
+.button.medium {
+    padding: 10px 30px;
+    font-size: 0.85em;
+}
+.button.small {
+    padding: 5px 15px;
+    font-size: 0.75em;
+}
+
+.button.border {
+    color: #d7d7d7;
+    border: 2px solid #d7d7d7;
+    background: none;
+}
+
+.button:hover {
+    background: #56c16b;
+    border: 2px solid #56c16b;
+}
+.button.border:hover {
+    color: #48a65b;
+    border: 2px solid #48a65b;
+    background: none;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 4. LINES
+/* --------------------------------------------------------------------- */
+
+.hr {
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid rgba(255,255,255,0.15);
+}
+.hr.margin {
+   margin: 80px 0;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 5. FORM
+/* --------------------------------------------------------------------- */
+
+input.text, input.button, textarea {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    font-style: italic;
+    color: rgba(255,255,255,0.5);
+    font-size: 0.85em;
+}
+
+input.text {
+    width: 100%;
+    max-width: 450px;
+    padding: 22px;
+    background: rgba(0,0,0,0.12);
+    border: none;
+    -moz-box-shadow: inset 0 0 3px rgba(0,0,0,0.15);
+    -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.15);
+    box-shadow: inset 0 0 3px rgba(0,0,0,0.15);
+}
+
+input.submit {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+    display: inline-block;
+    padding: 22px 60px;
+    color: #d7d7d7;
+    background: #48a65b;
+    border: 2px solid #48a65b;
+    font-size: 0.85em;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    -moz-transition:    all 0.2s;
+    -o-transition:      all 0.2s;
+    transition:         all 0.2s;
+}
+
+textarea {
+    width: 100%;
+    max-width: 600px;
+    height: 250px;
+    padding: 22px;
+    background: rgba(0,0,0,0.12);
+    border: none;
+    -moz-box-shadow: inset 0 0 3px rgba(0,0,0,0.15);
+    -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.15);
+    box-shadow: inset 0 0 3px rgba(0,0,0,0.15);
+}
+
+input.submit:hover {
+    background: #56c16b;
+    border: 2px solid #56c16b;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 6. ICONS / SOCIAL
+/* --------------------------------------------------------------------- */
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 3px;
+    width: 60px;
+    height: 60px;
+    line-height: 57px;
+    color: #d7d7d7;
+    border: 2px solid #d7d7d7;
+    text-align: center;
+    font-size: 1.3em;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    -webkit-transition: all 0.4s;
+    -moz-transition:    all 0.4s;
+    -o-transition:      all 0.4s;
+    transition:         all 0.4s;
+}
+
+.social-icons a:hover {
+    background: #48a65b;
+    border: 2px solid #48a65b;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 7. ICON BOX
+/* --------------------------------------------------------------------- */
+
+.icon-box {
+    text-align: center;
+}
+
+.icon-box i {
+    font-size: 10em;
+    margin-bottom: 20px;
+    -webkit-transition: all 0.4s;
+    -moz-transition:    all 0.4s;
+    -o-transition:      all 0.4s;
+    transition:         all 0.4s;
+}
+.icon-box:hover i {
+    margin-top: -25px;
+    color: #48a65b;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 8. SLIDER
+/* --------------------------------------------------------------------- */
+
+/* === 8.1 DEVICE SLIDER === */
+
+.device-slider {
+    position: relative;
+    width: 100%;
+}
+
+.device-slider .device-img {
+    width: 100%;
+    z-index: 1;
+}
+
+.device-slider .bx-wrapper {
+    position: absolute;
+    z-index: 2;
+}
+
+.device-slider ul li {
+    position: relative;
+}
+
+.device-slider ul img {
+    width: 100%;
+    max-width: 100%;
+}
+
+
+
+/* === 8.2 DEVICE IPHONE === */
+
+.device-slider.iphone {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.device-slider.iphone .bx-wrapper {
+    top: 13%;
+    margin: 0 8.5%;
+    width: 83%;
+}
+
+
+
+/* === 8.3 DEVICE MACBOOK === */
+
+.device-slider.macbook {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.device-slider.macbook .bx-wrapper {
+    top: 7%;
+    margin: 0 11.5%;
+    width: 77%;
+}
+
+
+
+/* === 8.4 COMMENT SLIDER === */
+
+#comment-slider li {
+    padding-bottom: 50px;
+    margin: 0 !important;
+    text-align: center;
+}
+#comment-slider .client-img {
+    margin: 0 auto;
+    max-width: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+}
+
+#comment-slider .name {
+    display: block;
+    padding: 20px 0 30px 0;
+    font-size: 0.9em;
+}
+
+#comment-slider .comment {
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 9. CAROUSEL
+/* --------------------------------------------------------------------- */
+
+.carousel {
+   	margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+}
+
+.carousel:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.carousel li {
+    display: block;
+    margin: 0 20px 0 20px;
+    float: left;
+}
+
+.carousel li img {
+    width: 100%;
+}
+
+
+
+/* === 9.1 CLIENT CAROUSEL === */
+
+#client-carousel {
+	margin-top: 40px;
+}
+
+#client-carousel li a {
+	opacity: 0.5;
+    -webkit-transition: all 0.4s;
+    -moz-transition:    all 0.4s;
+    -o-transition:      all 0.4s;
+    transition:         all 0.4s;
+}
+#client-carousel li a:hover {
+	opacity: 1;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 10. PRICING TABLE
+/* --------------------------------------------------------------------- */
+
+.pricing-table {
+    text-align: center;
+    background: #384551;
+    -webkit-transition: all 0.4s;
+    -moz-transition:    all 0.4s;
+    -o-transition:      all 0.4s;
+    transition:         all 0.4s;
+}
+.pricing-table:hover {
+    margin-top: -25px;
+    margin-bottom: 25px;
+}
+
+
+.pricing-table span {
+    display: block;
+}
+
+.pricing-table .header {
+    padding: 35px 0 25px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.35);
+}
+.pricing-table h3 {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    font-weight: 700;
+    line-height: 1;
+}
+.pricing-table .price {
+    font-weight: 300;
+    font-size: 2.8em;
+}
+
+.pricing-table .content {
+    padding: 30px 15px;
+    border-bottom: 1px solid rgba(255,255,255,0.35);
+}
+.pricing-table ul li {
+    margin: 15px 0;
+    font-size: 0.85em;
+}
+
+.pricing-table .footer {
+    padding: 40px 0;
+}
+
+
+
+/* === 10.1 TOP PRICE === */
+
+.pricing-table.best-price .header {
+    background: #48a65b;
+    border-bottom: 1px solid #48a65b;
+}
+.pricing-table.best-price .price {
+    font-weight: 600;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 11. TOGGLE BOX
+/* --------------------------------------------------------------------- */
+
+.toggle-box .toggle {
+    margin-bottom: 2px;
+}
+
+.toggle-box .toggle .header {
+    display: block;
+    padding: 0;
+    background: #384551;
+    color: #d7d7d7;
+    line-height: 1;
+    font-weight: 600;
+    -webkit-transition: all 0.4s;
+    -moz-transition:    all 0.4s;
+    -o-transition:      all 0.4s;
+    transition:         all 0.4s;
+}
+.toggle-box .toggle .header:hover {
+    background: #48a65b;
+}
+.toggle-box .toggle .header.active {
+    background: #48a65b;
+}
+
+.toggle-box .toggle .header .icon {
+    display: inline-block;
+    padding: 20px 0;
+	width: 30px;
+	text-align: center;
+}
+
+.toggle-box .toggle .header .icon.minus {
+	display: none;
+}
+
+.toggle-box .toggle .header .text {
+    display: inline-block;
+    font-size: 0.9em;
+}
+
+.toggle-box .content {
+    display: none;
+	padding: 20px 30px;
+    background: #384551;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 12. SKILLBAR
+/* --------------------------------------------------------------------- */
+
+.skillbar {
+	position: relative;
+	height: 50px;
+	margin-bottom: 2px;
+	background: #384551;
+}
+
+.skillbar:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.skillbar span {
+	display: block;
+	position: absolute;
+	font-size: 0.85em;
+	line-height: 50px;
+}
+
+.skillbar .skill {
+	top: 0;
+	left: 15px;
+	font-weight: 600;
+	z-index: 2;
+}
+
+.skillbar .number {
+	top: 0;
+	right: 15px;
+	z-index: 2;
+}
+
+.skillbar .percent-bg {
+	top: 0;
+	left: 0;
+	height: 100%;
+	background: #48a65b;
+	z-index: 1;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 13. FACTS
+/* --------------------------------------------------------------------- */
+
+.facts {
+    margin: 20px 0 0 0;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.facts .icon-number {
+	font-size: 4em;
+}
+
+.facts .icon-number .number {
+	display: inline-block;
+}
+
+.facts .text {
+	padding: 5px 0 0 0;
+	font-size: 1.2em;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 14. TAB CONTENT
+/* --------------------------------------------------------------------- */
+
+.tab-content-navi {
+    border-top: 2px solid #384551;
+    border-bottom: 2px solid #384551;
+}
+.tab-content-navi li:last-child {
+    margin-bottom: 0;
+}
+.tab-content-navi li {
+    margin-bottom: 2px;
+}
+
+.tab-content-navi li a {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    color: #d7d7d7;
+    line-height: 1;
+    font-size: 0.9em;
+    font-weight: 600;
+    background: #384551;
+    border-left: 4px solid #384551;
+    -webkit-transition: all 0.4s;
+    -moz-transition:    all 0.4s;
+    -o-transition:      all 0.4s;
+    transition:         all 0.4s;
+}
+.tab-content-navi a.active {
+    background: none;
+    border-left: 4px solid #48a65b;
+}
+.tab-content-navi a:hover {
+    border-left: 4px solid #48a65b;
+}
+
+.tab-content {
+    display: none;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 15. CALLOUT BOX
+/* --------------------------------------------------------------------- */
+
+.callout-box {
+    position: relative;
+    padding: 40px 30px;
+    border-left: 4px solid #48a65b;
+    background: #384551;
+    text-align: center;
+}
+.callout-box:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.callout-box h3 {
+    margin-bottom: 5px;
+}
+.callout-box p {
+    margin: 0 auto 25px auto;
+}
+.callout-box a {
+    margin-top: 8px;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 16. ALERT BOX
+/* --------------------------------------------------------------------- */
+
+.alert-box {
+	position: relative;
+	margin-bottom: 30px;
+    padding: 15px 60px 15px 30px;
+	font-size: 0.9em;
+	background: #384551;
+}
+.alert-box .close {
+	display: block;
+	position: absolute;
+	right: 20px;
+	top: 5px;
+	padding: 10px;
+    -webkit-transition: all 0.2s;
+    -moz-transition:    all 0.2s;
+    -o-transition:      all 0.2s;
+    transition:         all 0.2s;
+}
+.alert-box .close:hover {
+	color: #d7d7d7 !important;
+}
+
+.alert-box.error {
+	color: #cb4545;
+	border-left: 4px solid #cb4545;
+}
+.alert-box.error .close {
+	color: #cb4545;
+}
+
+.alert-box.warning {
+	color: #cec25f;
+	border-left: 4px solid #cec25f;
+}
+.alert-box.warning .close {
+	color: #cec25f;
+}
+
+.alert-box.success {
+	color: #48a65b;
+	border-left: 4px solid #48a65b;
+}
+.alert-box.success .close {
+	color: #48a65b;
+}
+
+.alert-box.notice {
+	color: #9f9f9f;
+	border-left: 4px solid #9f9f9f;
+}
+.alert-box.notice .close {
+	color: #9f9f9f;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/* 17. GOOGLE MAP
+/* --------------------------------------------------------------------- */
+
+#googlemap {
+    width: 100%;
+    height: 400px;
+}
+
+div.map-popup {
+    position: relative;
+    padding: 20px;
+    background: #2d3943;
+    text-align: center;
+}
+
+div.map-popup h2 {
+    margin-bottom: 20px;
+}
+
+div.map-popup p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+

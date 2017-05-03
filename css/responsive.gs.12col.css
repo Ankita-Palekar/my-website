@@ -1,0 +1,129 @@
+/*	12 COLUMN : RESPONSIVE GRID SYSTEM
+	DEVELOPER : DENIS LEBLANC
+	URL : http://responsive.gs
+	VERSION : 3.0
+	LICENSE : GPL & MIT */
+
+/* --------------------------------------------------------------------- */
+/* 	SET ALL ELEMENTS TO BOX-SIZING : BORDER-BOX
+/* --------------------------------------------------------------------- */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    *behavior: url('../scripts/boxsizing.htc');
+    /*	If you need support for IE7 and lower make
+        sure the boxsizing.htc file is linked properly.
+        More info here:  https://github.com/Schepp/box-sizing-polyfill */
+}
+
+
+
+/* --------------------------------------------------------------------- */
+/*	ROW CONTAINER
+/* --------------------------------------------------------------------- */
+.row {
+    position: relative;
+    max-width: 1260px;
+    min-width: 260px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+
+
+/* --------------------------------------------------------------------- */
+/*	SELF CLEARING FLOATS - CLEARFIX METHOD
+/* --------------------------------------------------------------------- */
+
+.container:after,
+.row:after,
+.col:after,
+.clr:after,
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+/* --------------------------------------------------------------------- */
+/*	DEFAULT COLUMN STYLES
+/* --------------------------------------------------------------------- */
+
+.col {
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+
+
+@media ( max-width : 849px ) {
+
+    .gutters .col {
+        margin-bottom: 40px;
+    }
+
+    .gutters .col:last-child {
+        margin-bottom: 0;
+    }
+
+}
+
+
+
+@media ( min-width : 850px ) {
+
+    .gutters .col {
+        margin-left: 5%;
+    }
+
+    .gutters .col:first-child {
+        margin-left: 0;
+    }
+
+}
+
+
+
+/* --------------------------------------------------------------------- */
+/*	COLUMN WIDTH ON DISPLAYS +850px
+	You might need to play with media queries here to suite your design.
+/* --------------------------------------------------------------------- */
+
+@media ( min-width : 850px ) {
+
+    .span_1 { width: 8.33333333333%; }
+    .span_2 { width: 16.6666666667%; }
+    .span_3 { width: 25%; }
+    .span_4 { width: 33.3333333333%; }
+    .span_5 { width: 41.6666666667%; }
+    .span_6 { width: 50%; }
+    .span_7 { width: 58.3333333333%; }
+    .span_8 { width: 66.6666666667%; }
+    .span_9 { width: 75%; }
+    .span_10 { width: 83.3333333333%; }
+    .span_11 { width: 91.6666666667%; }
+    .span_12 { width: 100%; }
+
+    .gutters .span_1 { width: 3.75%; }
+    .gutters .span_2 { width: 12.5%; }
+    .gutters .span_3 { width: 21.25%; }
+    .gutters .span_4 { width: 30.0%; }
+    .gutters .span_5 { width: 38.75%; }
+    .gutters .span_6 { width: 47.5%; }
+    .gutters .span_7 { width: 56.25%; }
+    .gutters .span_8 { width: 65%; }
+    .gutters .span_9 { width: 73.75%; }
+    .gutters .span_10 { width: 82.5%; }
+    .gutters .span_11 { width: 91.25%; }
+    .gutters .span_12 { width: 100%; }
+
+}
