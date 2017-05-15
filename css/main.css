@@ -1,3 +1,51 @@
+#open-nav{
+    top: 0%;
+}
+
 .image-circle{
     border-radius: 50%;
+}
+
+#main-navigation{
+    top: 20%;
+}
+
+.project-dentist{
+    background-color: #5A9AE1;
+}
+
+.project-better-admin{
+    background-color: #FFFFFF;
+}
+
+.project-campus-admin{
+    background-color: #3AC181;
+}
+
+.project-foodkafe-admin{
+    background-color: #00CD82;
+}
+
+.project-pump-app{
+    background-color: #F5DC7B;
+}
+
+.project-better-mobile-app{
+    background-color: #00B0A3;
+}
+
+.project-campus-mobile-app{
+    background-color: #FF3E51;
+}
+
+.project-foodkafe-mobile-app{
+    background-color: #00CD94;
+}
+
+.project-codefabrik{
+    background-color: #FF6053;
+}
+
+#banner .main-title{
+    text-transform: capitalize;
 }

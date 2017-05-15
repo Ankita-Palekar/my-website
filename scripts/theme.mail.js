@@ -13,26 +13,20 @@
 
         $.ajax( {
             type: 'POST',
-            url: 'php-mail/mail.php',
+            url: 'backend-script/mail.php',
             data: dataJson,
-            dataType: 'json',
-            success: function( contact ) {
-                // contact.successMsg
-                // contact.errorMsg
+            dataType: 'json'
+        } ).done(function (contact) {
 
-                if( contact.successMsg ) {
-
-                    $( '#contact-success > span' ).html( contact.successMsg );
-                    $( '#contact-success' ).fadeIn();
-                    $( '#contact-form' ).find( 'input[type=text], textarea' ).val( '' );
-
-                } else if( contact.errorMsg ) {
-
-                    $( '#contact-error > span' ).html( contact.errorMsg );
-                    $( '#contact-error' ).fadeIn();
-                }
+            if( contact.successMsg ) {
+                $( '#contact-success > span' ).html( contact.successMsg );
+                $( '#contact-success' ).fadeIn();
+                $( '#contact-form' ).find( 'input[type=text], textarea' ).val( '' );
+            } else if( contact.errorMsg ) {
+                $( '#contact-error > span' ).html( contact.errorMsg );
+                $( '#contact-error' ).fadeIn();
             }
-        } );
+        });
 
     } );
 

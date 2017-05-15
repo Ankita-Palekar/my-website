@@ -54,7 +54,7 @@
     <ul id="main-navigation">
         <li><a class="active" href="#banner">Start</a></li>
         <li><a href="#work">Work</a></li>
-        <li><a href="#blog">Blog</a></li>
+        <li><a href="#blog" onclick="window.location.href = 'http://medium.com/@AnkitaPalekar'">Blog</a></li>
 		<!--<li><a href="shortcodes.html">Shortcodes</a></li>-->
         <li><a href="#contact">Contact</a></li>
     </ul><!-- END NAVIGATION -->
@@ -83,10 +83,9 @@
                 <!--Welcome-->
             <!--</span>-->
 
-
-            <img class="image-circle" src="images/profile/ankita.jpg" style="width:200px; height: 200px;" alt="profile pic">
+            <img class="image-circle" src="images/profile/profile-pic.png" style="width:200px; height: 200px;" alt="profile pic">
             <span class="small-text">
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                 Ankita Palekar
             </span>
             <div class="button-wrapper">
                 <a class="button scrollto" href="#work">View Portfolio</a>
@@ -145,133 +144,134 @@
                     <li class="filter" data-filter="webdesign">
 						<a>Webdesign</a>
 					</li>
-                    <li class="filter" data-filter="html">
-						<a>HTML 5 & CSS 3</a>
+                    <li class="filter" data-filter="mobile-app-api">
+						<a>Api</a>
 					</li>
+                    <li class="filter" data-filter="html-css">
+                        <a>HTML & CSS</a>
+                    </li>
+
                 </ul><!-- END FILTER TABS -->
             </div><!-- END ROW -->
 			
 			
        		<!-- START WRAPPER WORK GRID -->
 	   	 	<ul id="work-preview">
-				
+
+                <!--for web design -->
 				<!-- START WORK -->
 				<li class="mix webdesign">
-					<a data-work-link="#work-01.html">
-						<img src="images/work/thumbnail-01.jpg" alt="" />
-						<!-- START LAYER -->
-						<div class="layer">
-							<h4 class="underline">Ghost Theme</h4>
-							<span class="client">Client / <i>Themeforest</i></span>
-						</div><!-- END LAYER -->
-					</a>
-				</li><!-- END WORK -->
-				
-				<!-- START WORK -->
-				<li class="mix html">
-					<a data-work-link="#work-02.html">
-						<img src="images/work/thumbnail-02.jpg" alt="" />
+					<a class="project-dentist" data-work-link="#work-01.html">
+						<img src="images/work/dentist-anil-da-silva.png" alt="" />
 						<!-- START LAYER -->
 						<div class="layer">
 							<h4 class="underline">Responsive Design</h4>
-                            <span class="client">Client / <i>Themeforest</i></span>
-						</div><!-- END LAYER -->
-					</a>
-				</li><!-- END WORK -->
-				
-				<!-- START WORK -->
-				<li class="mix webdesign">
-					<a data-work-link="#work-03.html">
-						<img src="images/work/thumbnail-03.jpg" alt="" />
-						<!-- START LAYER -->
-						<div class="layer">
-							<h4 class="underline">Another Work</h4>
-                            <span class="client">Client / <i>Themeforest</i></span>
-						</div><!-- END LAYER -->
-					</a>
-				</li><!-- END WORK -->
-				
-				<!-- START WORK -->
-				<li class="mix html">
-					<a data-work-link="#work-04.html">
-						<img src="images/work/thumbnail-04.jpg" alt="" />
-						<!-- START LAYER -->
-						<div class="layer">
-							<h4 class="underline">Video Work</h4>
-                            <span class="client">Client / <i>Themeforest</i></span>
-						</div><!-- END LAYER -->
-					</a>
-				</li><!-- END WORK -->
-				
-				<!-- START WORK -->
-				<li class="mix webdesign">
-					<a data-work-link="#work-05.html">
-						<img src="images/work/thumbnail-05.jpg" alt="" />
-						<!-- START LAYER -->
-						<div class="layer">
-							<h4 class="underline">Image Slider</h4>
-                            <span class="client">Client / <i>Themeforest</i></span>
-						</div><!-- END LAYER -->
-					</a>
-				</li><!-- END WORK -->
-				
-				<!-- START WORK -->
-				<li class="mix html">
-					<a data-work-link="#work-06.html">
-						<img src="images/work/thumbnail-06.jpg" alt="" />
-						<!-- START LAYER -->
-						<div class="layer">
-							<h4 class="underline">Wordpress Theme</h4>
-                            <span class="client">Client / <i>Themeforest</i></span>
-						</div><!-- END LAYER -->
-					</a>
-				</li><!-- END WORK -->
-				
-				<!-- START WORK -->
-				<li class="mix webdesign">
-					<a data-work-link="#work-07.html">
-						<img src="images/work/thumbnail-07.jpg" alt="" />
-						<!-- START LAYER -->
-						<div class="layer">
-							<h4 class="underline">HTML5 & CSS3</h4>
-                            <span class="client">Client / <i>Themeforest</i></span>
-						</div><!-- END LAYER -->
-					</a>
-				</li><!-- END WORK -->
-				
-				<!-- START WORK -->
-				<li class="mix html">
-					<a data-work-link="#work-08.html">
-						<img src="images/work/thumbnail-08.jpg" alt="" />
-						<!-- START LAYER -->
-						<div class="layer">
-							<h4 class="underline">jQuerry Plugin</h4>
-                            <span class="client">Client / <i>Themeforest</i></span>
-						</div><!-- END LAYER -->
-					</a>
-				</li><!-- END WORK -->
-				
-				<!-- START WORK -->
-				<li class="mix webdesign">
-					<a data-work-link="#work-09.html">
-						<img src="images/work/thumbnail-09.jpg" alt="" />
-						<!-- START LAYER -->
-						<div class="layer">
-							<h4 class="underline">Clean Design</h4>
-                            <span class="client">Client / <i>Themeforest</i></span>
+							<span class="client"><a href="http://dentistanildasilva.in/" target="_blank">Dr. Anil da Silva dental clinics</a></span>
 						</div><!-- END LAYER -->
 					</a>
 				</li><!-- END WORK -->
 
+                <!-- START WORK -->
+                <li class="mix webdesign">
+                    <a class="project-better-admin" data-work-link="#work-01.html">
+                        <img src="images/work/better-the-game-admin-dashboard.png" alt="" />
+                        <!-- START LAYER -->
+                        <div class="layer">
+                            <h4 class="underline">Responsive Design</h4>
+                            <span class="client"><a href="http://dentistanildasilva.in/" target="_blank">Dr. Anil da Silva dental clinics</a></span>
+                        </div><!-- END LAYER -->
+                    </a>
+                </li><!-- END WORK -->
+
+                <li class="mix webdesign">
+                    <a class="project-campus-admin" data-work-link="#work-01.html">
+                        <img src="images/work/campus-wings-admin-dashboard.png" alt="" />
+                        <!-- START LAYER -->
+                        <div class="layer">
+                            <h4 class="underline">Responsive Design</h4>
+                            <span class="client"><a href="http://dentistanildasilva.in/" target="_blank">Dr. Anil da Silva dental clinics</a></span>
+                        </div><!-- END LAYER -->
+                    </a>
+                </li>
+
+                <li class="mix webdesign">
+                    <a class="project-foodkafe-admin" data-work-link="#work-01.html">
+                        <img src="images/work/foodkafe-website.png" alt="" />
+                        <!-- START LAYER -->
+                        <div class="layer">
+                            <h4 class="underline">Responsive Design</h4>
+                            <span class="client"><a href="http://dentistanildasilva.in/" target="_blank">Dr. Anil da Silva dental clinics</a></span>
+                        </div><!-- END LAYER -->
+                    </a>
+                </li>
+
+                <li class="mix webdesign">
+                    <a class="project-pump-app" data-work-link="#work-01.html">
+                        <img src="images/work/pump-website.png" alt="" />
+                        <!-- START LAYER -->
+                        <div class="layer">
+                            <h4 class="underline">Responsive Design</h4>
+                            <span class="client"><a href="http://dentistanildasilva.in/" target="_blank">Dr. Anil da Silva dental clinics</a></span>
+                        </div><!-- END LAYER -->
+                    </a>
+                </li>
+
+                <li class="mix webdesign">
+                    <a class="project-codefabrik" data-work-link="#work-01.html">
+                        <img src="images/work/code-fabrik.png" alt="" />
+                        <!-- START LAYER -->
+                        <div class="layer">
+                            <h4 class="underline">Responsive Design</h4>
+                            <span class="client"><a href="http://dentistanildasilva.in/" target="_blank">Dr. Anil da Silva dental clinics</a></span>
+                        </div><!-- END LAYER -->
+                    </a>
+                </li>
+
+
+                <!-- for mobile app -->
+
+                <li class="mix mobile-app-api">
+                    <a class="project-better-mobile-app" data-work-link="#work-01.html">
+                        <img src="images/work/better-mobile-app.png" alt="" />
+                        <!-- START LAYER -->
+                        <div class="layer">
+                            <h4 class="underline">Responsive Design</h4>
+                            <span class="client"><a href="http://dentistanildasilva.in/" target="_blank">Dr. Anil da Silva dental clinics</a></span>
+                        </div><!-- END LAYER -->
+                    </a>
+                </li><!-- END WORK -->
+
+                <li class="mix mobile-app-api">
+                    <a class="project-campus-mobile-app" data-work-link="#work-01.html">
+                        <img src="images/work/campus-wings-mobile-app.png" alt="" />
+                        <!-- START LAYER -->
+                        <div class="layer">
+                            <h4 class="underline">Responsive Design</h4>
+                            <span class="client"><a href="http://dentistanildasilva.in/" target="_blank">Dr. Anil da Silva dental clinics</a></span>
+                        </div><!-- END LAYER -->
+                    </a>
+                </li><!-- END WORK -->
+
+                <li class="mix mobile-app-api">
+                    <a class="project-foodkafe-mobile-app" data-work-link="#work-01.html">
+                        <img src="images/work/foodkafe-mobile-app.png" alt="" />
+                        <!-- START LAYER -->
+                        <div class="layer">
+                            <h4 class="underline">Responsive Design</h4>
+                            <span class="client"><a href="http://dentistanildasilva.in/" target="_blank">Dr. Anil da Silva dental clinics</a></span>
+                        </div><!-- END LAYER -->
+                    </a>
+                </li><!-- END WORK -->
+
 			</ul><!-- END WRAPPER WORK GRID -->
 			
 			<!-- START LOAD MORE BUTTON -->
-            <div id="work-load-more" class="work-button">
-                <a class="button border">
-                    Load More
-                    <img src="images/layout/color_loader.gif" alt="Loading" />
-                </a>
-            </div><!-- END LOAD MORE BUTTON -->
+            <!--<div id="work-load-more" class="work-button">-->
+                <!--<a class="button border">-->
+                    <!--Load More-->
+                    <!--<img src="images/layout/color_loader.gif" alt="Loading" />-->
+                <!--</a>-->
+            <!--</div>&lt;!&ndash; END LOAD MORE BUTTON &ndash;&gt;-->
 			
         </div><!-- END WORK CONTAINER -->
 		
@@ -837,126 +837,126 @@
 
 	<!-- START BLOG SECTION -->
     <section id="blog">
-		
-		<!-- START WRAPPER -->
-        <div class="headline-wrapper">
-			<!-- START ROW -->
-            <div class="row">
-                <h1 class="underline">
-					From Our Blog
-				</h1>
-                <p class="undertitle">
-					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor cum sociis natoque penatibus et magnis dis parturient montes.
-				</p>
-            </div><!-- END ROW -->
-        </div><!-- END WRAPPER -->
 
-		
 		<!-- START WRAPPER -->
-        <div id="blog-wrapper">
-            <div class="close">
-                <a id="close-blog-wrapper"></a>
-            </div>
-            <div id="blog-loader"><img src="images/layout/color_loader.gif" alt="" /></div>
+        <!--<div class="headline-wrapper">-->
+			<!--&lt;!&ndash; START ROW &ndash;&gt;-->
+            <!--<div class="row">-->
+                <!--<h1 class="underline">-->
+					<!--From Our Blog-->
+				<!--</h1>-->
+                <!--<p class="undertitle">-->
+					<!--Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor cum sociis natoque penatibus et magnis dis parturient montes.-->
+				<!--</p>-->
+            <!--</div>&lt;!&ndash; END ROW &ndash;&gt;-->
+        <!--</div>&lt;!&ndash; END WRAPPER &ndash;&gt;-->
 
-			<div id="load-blog-content">
-				<!-- Blog Details load here -->
-			</div>
-        </div><!-- END WRAPPER -->
-		
-			
+
+		<!-- START WRAPPER -->
+        <!--<div id="blog-wrapper">-->
+            <!--<div class="close">-->
+                <!--<a id="close-blog-wrapper"></a>-->
+            <!--</div>-->
+            <!--<div id="blog-loader"><img src="images/layout/color_loader.gif" alt="" /></div>-->
+
+			<!--<div id="load-blog-content">-->
+				<!--&lt;!&ndash; Blog Details load here &ndash;&gt;-->
+			<!--</div>-->
+        <!--</div>&lt;!&ndash; END WRAPPER &ndash;&gt;-->
+
+
 		<!-- START ROW -->
-        <div class="row">
-			<!-- START BLOG GRID -->
-            <ul id="blog-preview">
-				<!-- START BLOG ARTICLE -->
-                <li>
-                    <div class="layer">
-                        <a data-blog-link="#blog-01.html" class="button">Show Article</a>
-                    </div>
-                    <img class="prev-img" src="images/blog/thumbnail-01.jpg" alt="" />
-                    <div class="text">
-                        <h4 class="underline">
-							artless First Theme
-						</h4>
-                        <span class="detail">Categorie / <i>HTML Theme</i></span>
-                        <span class="detail">Author / <i>artless</i></span>
-                        <span class="detail">Date / <i>06.01.2014</i></span>
-                    </div>
-                </li><!-- END BLOG ARTICLE -->
-					
-				<!-- START BLOG ARTICLE -->
-                <li>
-                    <div class="layer">
-                        <a data-blog-link="#blog-02.html" class="button">Show Article</a>
-                    </div>
-                    <img class="prev-img" src="images/blog/thumbnail-02.jpg" alt="" />
-                    <div class="text">
-                        <h4 class="underline">
-							Fast Support
-						</h4>
-                        <span class="detail">Categorie / <i>Support</i></span>
-                        <span class="detail">Author / <i>artless</i></span>
-                        <span class="detail">Date / <i>05.01.2014</i></span>
-                    </div>
-                </li><!-- END BLOG ARTICLE -->
-					
-				<!-- START BLOG ARTICLE -->
-                <li>
-                    <div class="layer">
-                        <a data-blog-link="#blog-03.html" class="button">Show Article</a>
-                    </div>
-                    <img class="prev-img" src="images/blog/thumbnail-03.jpg" alt="" />
-                    <div class="text">
-                        <h4 class="underline">
-							100% Responsive
-						</h4>
-                        <span class="detail">Categorie / <i>Webdesign</i></span>
-                        <span class="detail">Author / <i>artless</i></span>
-                        <span class="detail">Date / <i>03.01.2014</i></span>
-                    </div>
-                </li><!-- END BLOG ARTICLE -->
-					
-				<!-- START BLOG ARTICLE -->
-                <li>
-                    <div class="layer">
-                        <a data-blog-link="#blog-04.html" class="button">Show Article</a>
-                    </div>
-                    <img class="prev-img" src="images/blog/thumbnail-04.jpg" alt="" />
-                    <div class="text">
-                        <h4 class="underline">
-							Showcase Your Work
-						</h4>
-                        <span class="detail">Categorie / <i>Portfolio</i></span>
-                        <span class="detail">Author / <i>artless</i></span>
-                        <span class="detail">Date / <i>25.12.2013</i></span>
-                    </div>
-                </li><!-- END BLOG ARTICLE -->
-            </ul><!-- END BLOG GRID -->
-				
-			<!-- START LOAD MORE BUTTON -->
-            <div id="blog-load-more" class="blog-button">
-                <a class="button border">
-                    Load More
-                    <img src="images/layout/color_loader.gif" alt="Loading" />
-                </a>
-            </div><!-- END LOAD MORE BUTTON -->
-				
-        </div><!-- END ROW -->
-			
-			
+        <!--<div class="row">-->
+			<!--&lt;!&ndash; START BLOG GRID &ndash;&gt;-->
+            <!--<ul id="blog-preview">-->
+				<!--&lt;!&ndash; START BLOG ARTICLE &ndash;&gt;-->
+                <!--<li>-->
+                    <!--<div class="layer">-->
+                        <!--<a data-blog-link="#blog-01.html" class="button">Show Article</a>-->
+                    <!--</div>-->
+                    <!--<img class="prev-img" src="images/blog/thumbnail-01.jpg" alt="" />-->
+                    <!--<div class="text">-->
+                        <!--<h4 class="underline">-->
+							<!--artless First Theme-->
+						<!--</h4>-->
+                        <!--<span class="detail">Categorie / <i>HTML Theme</i></span>-->
+                        <!--<span class="detail">Author / <i>artless</i></span>-->
+                        <!--<span class="detail">Date / <i>06.01.2014</i></span>-->
+                    <!--</div>-->
+                <!--</li>&lt;!&ndash; END BLOG ARTICLE &ndash;&gt;-->
+
+				<!--&lt;!&ndash; START BLOG ARTICLE &ndash;&gt;-->
+                <!--<li>-->
+                    <!--<div class="layer">-->
+                        <!--<a data-blog-link="#blog-02.html" class="button">Show Article</a>-->
+                    <!--</div>-->
+                    <!--<img class="prev-img" src="images/blog/thumbnail-02.jpg" alt="" />-->
+                    <!--<div class="text">-->
+                        <!--<h4 class="underline">-->
+							<!--Fast Support-->
+						<!--</h4>-->
+                        <!--<span class="detail">Categorie / <i>Support</i></span>-->
+                        <!--<span class="detail">Author / <i>artless</i></span>-->
+                        <!--<span class="detail">Date / <i>05.01.2014</i></span>-->
+                    <!--</div>-->
+                <!--</li>&lt;!&ndash; END BLOG ARTICLE &ndash;&gt;-->
+
+				<!--&lt;!&ndash; START BLOG ARTICLE &ndash;&gt;-->
+                <!--<li>-->
+                    <!--<div class="layer">-->
+                        <!--<a data-blog-link="#blog-03.html" class="button">Show Article</a>-->
+                    <!--</div>-->
+                    <!--<img class="prev-img" src="images/blog/thumbnail-03.jpg" alt="" />-->
+                    <!--<div class="text">-->
+                        <!--<h4 class="underline">-->
+							<!--100% Responsive-->
+						<!--</h4>-->
+                        <!--<span class="detail">Categorie / <i>Webdesign</i></span>-->
+                        <!--<span class="detail">Author / <i>artless</i></span>-->
+                        <!--<span class="detail">Date / <i>03.01.2014</i></span>-->
+                    <!--</div>-->
+                <!--</li>&lt;!&ndash; END BLOG ARTICLE &ndash;&gt;-->
+
+				<!--&lt;!&ndash; START BLOG ARTICLE &ndash;&gt;-->
+                <!--<li>-->
+                    <!--<div class="layer">-->
+                        <!--<a data-blog-link="#blog-04.html" class="button">Show Article</a>-->
+                    <!--</div>-->
+                    <!--<img class="prev-img" src="images/blog/thumbnail-04.jpg" alt="" />-->
+                    <!--<div class="text">-->
+                        <!--<h4 class="underline">-->
+							<!--Showcase Your Work-->
+						<!--</h4>-->
+                        <!--<span class="detail">Categorie / <i>Portfolio</i></span>-->
+                        <!--<span class="detail">Author / <i>artless</i></span>-->
+                        <!--<span class="detail">Date / <i>25.12.2013</i></span>-->
+                    <!--</div>-->
+                <!--</li>&lt;!&ndash; END BLOG ARTICLE &ndash;&gt;-->
+            <!--</ul>&lt;!&ndash; END BLOG GRID &ndash;&gt;-->
+
+			<!--&lt;!&ndash; START LOAD MORE BUTTON &ndash;&gt;-->
+            <!--<div id="blog-load-more" class="blog-button">-->
+                <!--<a class="button border">-->
+                    <!--Load More-->
+                    <!--<img src="images/layout/color_loader.gif" alt="Loading" />-->
+                <!--</a>-->
+            <!--</div>&lt;!&ndash; END LOAD MORE BUTTON &ndash;&gt;-->
+
+        <!--</div>&lt;!&ndash; END ROW &ndash;&gt;-->
+
+
 		<!-- START PARALLAX CONTENT -->
-        <div class="parallax-content parallax-newsletter">
-			<!-- START ROW -->
-            <div class="row">
-                <h3>Do you like it?</h3>
-                <p class="max-width">
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-                </p>
-                <a class="button border">Purchase Now</a>
-            </div><!-- END ROW -->
-        </div><!-- END PARALLAX CONTENT -->
-		
+        <!--<div class="parallax-content parallax-newsletter">-->
+			<!--&lt;!&ndash; START ROW &ndash;&gt;-->
+            <!--<div class="row">-->
+                <!--<h3>Do you like it?</h3>-->
+                <!--<p class="max-width">-->
+                    <!--Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.-->
+                <!--</p>-->
+                <!--<a class="button border">Purchase Now</a>-->
+            <!--</div>&lt;!&ndash; END ROW &ndash;&gt;-->
+        <!--</div>&lt;!&ndash; END PARALLAX CONTENT &ndash;&gt;-->
+
     </section><!-- START BLOG SECTION -->
 
 
@@ -1115,6 +1115,7 @@ SETTINGS IN theme.settings.js:
 	5. GOOGLE MAP
 -->
 <script type="text/javascript" src="scripts/theme.settings.js"></script>
+
 
 </body>
 </html>

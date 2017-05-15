@@ -95,7 +95,7 @@
     var mainNav = $("#main-navigation"),
         mainItems = mainNav.find("a"),
         scrollTo = mainItems.map(function(){
-            var item = $( $( this ).attr( "href" ) );
+            var item = $( $( this ).attr( "href" ));
             if (item.length) { return item; }
         });
 
