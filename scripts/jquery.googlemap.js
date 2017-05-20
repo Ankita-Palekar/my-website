@@ -15,7 +15,7 @@
         var settings = $.extend({
 
             // 1. SET YOUR HOME POSITION
-            home: { latitude: 40.712555, longitude: -74.003850 },
+            home: { latitude: 15.4815, longitude: 73.8220},
 
             // 2. YOUR MAP POPUP HTML CODE (without breaks)
             text: '<div class="map-popup"><h2 class="underline">Put your own text here</h2><p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p></div>',

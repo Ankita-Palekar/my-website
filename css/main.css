@@ -49,3 +49,7 @@
 #banner .main-title{
     text-transform: capitalize;
 }
+
+#work-preview .layer .work-description{
+    font-weight:bold;
+}
