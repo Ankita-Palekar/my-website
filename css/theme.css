@@ -152,16 +152,16 @@ body {
     background-size: cover;
 }
 .parallax-clients {
-    background-image: url('../images/banner/blur_background.jpg');
+    background-image: url('../images/banner/blurred.jpg');
 }
 .parallax-comments {
-    background-image: url('../images/banner/blur_background.jpg');
+    background-image: url('../images/banner/blurred.jpg');
 }
 .parallax-newsletter {
-    background-image: url('../images/banner/blur_background.jpg');
+    background-image: url('../images/banner/blurred.jpg');
 }
 .parallax-contact {
-    background-image: url('../images/banner/blur_background.jpg');
+    background-image: url('../images/banner/blurred.jpg');
 }
 
 
@@ -311,7 +311,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-image: url('../images/banner/blur_background.jpg');
+    background-image: url('../images/banner/blurred.jpg');
 }
 
 #banner .banner-container {

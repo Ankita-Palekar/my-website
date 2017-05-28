@@ -1,0 +1,172 @@
+
+/* --------------------------------------------------------------------- */
+/* 1. BACKGROUND COLOR
+/* --------------------------------------------------------------------- */
+
+.headline-wrapper,
+.wrapper.color-bg,
+#banner .scroll-down a:hover,
+.work-tabs li a:hover,
+.work-tabs li.active a,
+#work-wrapper #close-work-wrapper:hover,
+#blog-preview li:hover,
+#blog-wrapper #close-blog-wrapper:hover,
+.button,
+input.submit,
+.social-icons a:hover,
+.pricing-table.best-price .header,
+.toggle-box .toggle .header:hover,
+.toggle-box .toggle .header.active,
+.skillbar .percent-bg,
+.maximage-prev:hover,
+.maximage-next:hover,
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active,
+.bx-wrapper .bx-controls-direction a:hover {
+    background-color: #48a65b;
+}
+
+.button:hover,
+input.submit:hover {
+    background: #56c16b;
+}
+
+#work-preview .layer {
+    background-color: rgba(71,165,91,0.85);
+}
+
+#page-preloader,
+#work-wrapper,
+.team-member,
+#blog-preview li,
+#blog-wrapper,
+.pricing-table,
+.toggle-box .toggle .header,
+.toggle-box .content,
+.skillbar,
+.tab-content-navi li a,
+.callout-box,
+.alert-box,
+.bx-wrapper .bx-loading {
+    background-color: #384551;
+}
+
+body,
+.bx-wrapper .bx-pager.bx-default-pager a,
+div.map-popup {
+    background-color: #2d3943;
+}
+
+#header {
+    background-color: #27333d;
+}
+
+.bottom-box {
+    background-color: #232d35;
+}
+
+input.text, textarea {
+    background: rgba(0,0,0,0.12);
+}
+
+
+
+/* --------------------------------------------------------------------- */
+/* 2. FONT COLOR
+/* --------------------------------------------------------------------- */
+
+a,
+#main-navigation li a:hover,
+#main-navigation li a.active,
+.color,
+.button.border:hover,
+.icon-box:hover i,
+.social-links a:hover {
+    color: #48a65b;
+}
+
+#open-nav:hover {
+    color: #56c16b;
+}
+
+body,
+.social-links a,
+#open-nav,
+#main-navigation li a,
+.work-tabs li a,
+.work-tabs li a:hover,
+.work-tabs li.active a,
+#work-preview li a,
+.button,
+.button.border,
+input.submit,
+.social-icons a,
+.toggle-box .toggle .header,
+.tab-content-navi li a,
+.alert-box .close:hover {
+    color: #d7d7d7;
+}
+
+p.undertitle {
+    color: rgba(218,218,218,0.8);
+}
+
+.bottom-box,
+p.blockquote,
+input.text,
+input.button,
+textarea  {
+    color: rgba(255,255,255,0.5);
+}
+
+
+
+/* --------------------------------------------------------------------- */
+/* 3. BORDER COLOR
+/* --------------------------------------------------------------------- */
+
+#banner .scroll-down a,
+.work-tabs li a,
+#work-wrapper #close-work-wrapper,
+#blog-wrapper #close-blog-wrapper,
+.button.border, .social-icons a,
+.maximage-prev, .maximage-next,
+.bx-wrapper .bx-controls-direction a {
+    border-color: #d7d7d7;
+}
+
+#banner .scroll-down a:hover,
+.work-tabs li a:hover,
+.work-tabs li.active a,
+#work-wrapper #close-work-wrapper:hover,
+#blog-wrapper #close-blog-wrapper:hover,
+.button,
+.button.border:hover,
+input.submit,
+.social-icons a:hover,
+p.blockquote,
+.pricing-table.best-price .header,
+.tab-content-navi a.active, .tab-content-navi a:hover,
+.callout-box,
+.maximage-prev:hover,
+.maximage-next:hover,
+.bx-wrapper .bx-controls-direction a:hover {
+    border-color: #48a65b;
+}
+
+.button:hover,
+input.submit:hover {
+    border-color: #56c16b;
+}
+
+.tab-content-navi,
+.tab-content-navi li a {
+    border-color: #384551;
+}
+
+.hr {
+    border-color: rgba(255,255,255,0.15);
+}
+
+.pricing-table .header, .pricing-table .content {
+    border-color: rgba(255,255,255,0.35);
+}
